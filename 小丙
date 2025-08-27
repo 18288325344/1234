@@ -1,0 +1,7 @@
+while true do
+local args = {
+	"swingKatana"
+}
+game:GetService("Players").LocalPlayer:WaitForChild("ninjaEvent"):FireServer(unpack(args))
+wait(0.5)
+end
